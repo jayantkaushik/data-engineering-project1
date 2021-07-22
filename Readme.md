@@ -32,4 +32,5 @@ Steps performed:
   7. Merging this tempview with the Fact table
   8. Querying the final Fact table to run analysis on the data set and draw insights(e.g. Top selling cars, Top Revenue areas, Top Customers etc.)
   9. Creating a dashboard to present these insights in a visualised manner
-    ----- end of data engg. ops. ----
+
+----- end of data engg. ops. ----
