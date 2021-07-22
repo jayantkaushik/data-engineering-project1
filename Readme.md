@@ -8,7 +8,7 @@ Description: This project is about performing data engineering(building pipeline
   1. Apache Nifi
   2. Databricks
   3. Apache Spark
-  4. PostgreSQL / SQL lang.
+  4. PostgreSQL
   5. Python
   6. AWS S3
 
