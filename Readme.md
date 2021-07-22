@@ -2,8 +2,7 @@
 ### Project Name: Data Engineering Project on the Databricks platform. 
 #### Dataset: Car Sales Around the World
 
-Description: This project is about performing data engineering(building pipelines, performing ETL ops etc) on the Databricks platform to build
-an end-to-end automated solution to structure the incoming data from the sample raw data set of car sales around the world.
+###### Description: This project is about performing data engineering(building pipelines, performing ETL ops etc.) on the Databricks platform. The result is an end-to-end automated data pipeline to structure the incoming data from the sample raw data set of car sales around the world.
 
 #### Tech Stack Used:
   1. Apache Nifi
@@ -22,8 +21,8 @@ Steps performed:
     2. Putting the files in an AWS S3 bucket
     3. Also, putting the metadate of the files in a PostgreSQL table
   
-  (steps included in this repository)
-  ETL Steps: (Extract, Transform and Load):
+  (steps included in this repository - See 
+  #### ETL Steps: (Extract, Transform and Load):
     1. Creating a fact table(only for the initial run, will be ignored when subsequent files are recieved)
     2. Importing data from the CSV files fetched in S3 bucket
     3. Creating Dataframes for all the CSV files using Apache Spark
