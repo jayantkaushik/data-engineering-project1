@@ -2,7 +2,7 @@
 ### Project Name: Data Engineering Project on the Databricks platform. 
 #### Dataset: Car Sales Around the World
 
-Description: This project is about performing data engineering(building pipelines, performing ETL ops etc.) on the Databricks platform. The result is an end-to-end automated data pipeline to structure the incoming data from the sample raw data set of car sales around the world.
+Description: This project is about performing data engineering(building pipelines, performing ETL ops etc.) using the Databricks platform. The result is an end-to-end automated data pipeline to structure the incoming data from the sample raw data set of car sales around the world.
 
 #### Tech Stack Used:
   1. Apache Nifi
