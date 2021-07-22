@@ -21,8 +21,8 @@ Steps performed:
   2. Putting the files in an AWS S3 bucket
   3. Also, putting the metadate of the files in a PostgreSQL table
   
-  steps included in this repository - See notebook named: [Jayant_kaushik.ipynb](https://github.com/jayantkaushik/data-engineering-project1/blob/main/Jayant_kaushik.ipynb)
-  #### ETL Steps: (Extract, Transform and Load):
+  steps included in this repository - See notebook for code: [Jayant_kaushik.ipynb](https://github.com/jayantkaushik/data-engineering-project1/blob/main/Jayant_kaushik.ipynb)
+  #### ETL Steps: (Extract, Transform and Load) using Apache Spark(PySpark):
     1. Creating a fact table(only for the initial run, will be ignored when subsequent files are recieved)
     2. Importing data from the CSV files fetched in S3 bucket
     3. Creating Dataframes for all the CSV files using Apache Spark
