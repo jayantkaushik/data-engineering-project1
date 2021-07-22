@@ -17,9 +17,9 @@ Steps performed:
   #### Apache NiFi - A snip of the flow created:
   ![alt text](https://github.com/jayantkaushik/data-engineering-project1/blob/main/NiFi%20DEA%20Capture.JPG "NiFi Flow")
   
-    1. Building a NiFi flow to automaticallyt fetch the files from SFTP whenever they are available/updated
-    2. Putting the files in an AWS S3 bucket
-    3. Also, putting the metadate of the files in a PostgreSQL table
+  1. Building a NiFi flow to automaticallyt fetch the files from SFTP whenever they are available/updated
+  2. Putting the files in an AWS S3 bucket
+  3. Also, putting the metadate of the files in a PostgreSQL table
   
   (steps included in this repository - See 
   #### ETL Steps: (Extract, Transform and Load):
