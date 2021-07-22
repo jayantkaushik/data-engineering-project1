@@ -23,13 +23,13 @@ Steps performed:
   
   steps included in this repository - See notebook for code: [Jayant_kaushik.ipynb](https://github.com/jayantkaushik/data-engineering-project1/blob/main/Jayant_kaushik.ipynb)
   #### ETL Steps: (Extract, Transform and Load) using Apache Spark(PySpark):
-    1. Creating a fact table(only for the initial run, will be ignored when subsequent files are recieved)
-    2. Importing data from the CSV files fetched in S3 bucket
-    3. Creating Dataframes for all the CSV files using Apache Spark
-    4. Joining all the Dataframes to create a unified dataframe
-    5. Performing other transformations like cleansing columns, concatenating where required, changing formats
-    6. Making a final dataframe and converting it into a SQL temp view using Spark
-    7. Merging this tempview with the Fact table
-    8. Querying the final Fact table to run analysis on the data set and draw insights(e.g. Top selling cars, Top Revenue areas, Top Customers etc.)
-    9. Creating a dashboard to present these insights in a visualised manner
+  1. Creating a fact table(only for the initial run, will be ignored when subsequent files are recieved)
+  2. Importing data from the CSV files fetched in S3 bucket
+  3. Creating Dataframes for all the CSV files using Apache Spark
+  4. Joining all the Dataframes to create a unified dataframe
+  5. Performing other transformations like cleansing columns, concatenating where required, changing formats
+  6. Making a final dataframe and converting it into a SQL temp view using Spark
+  7. Merging this tempview with the Fact table
+  8. Querying the final Fact table to run analysis on the data set and draw insights(e.g. Top selling cars, Top Revenue areas, Top Customers etc.)
+  9. Creating a dashboard to present these insights in a visualised manner
     ----- end of data engg. ops. ----
